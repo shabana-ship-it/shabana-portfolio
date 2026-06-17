@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shabana Nazreen Hussain | Scrum Master | Agile Project Manager</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+header{
+    background:#0f172a;
+    color:white;
+    position:fixed;
+    width:100%;
+    top:0;
+    z-index:1000;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 0;
+}
+
+.logo{
+    font-size:1.3rem;
+    font-weight:700;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    color:white;
+    padding-top:100px;
+}
+
+.hero-content{
+    max-width:800px;
+}
+
+.hero h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:1.3rem;
+    font-weight:400;
+    margin-bottom:20px;
+    color:#cbd5e1;
+}
+
+.hero p{
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    background:#3b82f6;
+    color:white;
+    padding:14px 28px;
+    border-radius:8px;
+    text-decoration:none;
+    margin-right:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#2563eb;
+}
+
+section{
+    padding:90px 0;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:2rem;
+    color:#0f172a;
+}
+
+.about-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+.card{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 3px 12px rgba(0,0,0,.08);
+}
+
+.timeline{
+    position:relative;
+    max-width:900px;
+    margin:auto;
+}
+
+.timeline-item{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-left:5px solid #3b82f6;
+    border-radius:10px;
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+}
+
+.timeline-item h3{
+    color:#1e3a8a;
+}
+
+.timeline-item span{
+    color:#666;
+    font-size:14px;
+}
+
+.certifications{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.cert{
+    background:white;
+    text-align:center;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 3px 15px rgba(0,0,0,.08);
+}
+
+.achievements{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.achievement{
+    background:#1e3a8a;
+    color:white;
+    padding:25px;
+    border-radius:12px;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+}
+
+footer{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+.about-grid{
+    grid-template-columns:1fr;
+}
+
+.hero h1{
+    font-size:2.2rem;
+}
+
+nav ul{
+    display:none;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<div class="logo">Shabana Hussain</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+
+<div class="hero-content">
+
+<h1>Shabana Nazreen Hussain</h1>
+
+<h2>Certified Scrum Master | Agile Project Manager | Agile Coach | SAFe Practitioner</h2>
+
+<p>
+Results-driven Agile Leader with 11+ years of experience delivering enterprise programs
+across Real Estate, Banking, FinTech, Telecom, and Smart Meter domains.
+Expert in Agile Transformation, Scrum, SAFe, PI Planning, Stakeholder Management,
+Risk Management, and Digital Transformation.
+</p>
+
+<a href="#contact" class="btn">Contact Me</a>
+<a href="#" class="btn">Download Resume</a>
+
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+
+<div class="section-title">
+<h2>About Me</h2>
+</div>
+
+<div class="about-grid">
+
+<div class="card">
+<h3>Professional Summary</h3>
+<br>
+<p>
+Certified Scrum Master and Agile Project Manager with a strong record of leading
+cross-functional teams, delivering business-critical projects, and driving Agile
+transformations across global organizations.
+</p>
+<br>
+<p>
+Experienced in Real Estate, Banking, Telecom, FinTech, and Enterprise Integration
+programs with extensive stakeholder management and delivery leadership expertise.
+</p>
+</div>
+
+<div class="card">
+<h3>Generative AI Experience</h3>
+<br>
+<p>
+Led adoption of AI-powered workflow automation solutions and collaborated with
+business teams to identify high-impact GenAI opportunities.
+</p>
+<br>
+<p>
+Hands-on experience with ChatGPT, Microsoft Copilot, Gemini, and Azure OpenAI
+for business process optimization and productivity enhancement.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+
+<div class="section-title">
+<h2>Core Skills</h2>
+</div>
+
+<div class="skills">
+
+<div class="skill">Agile Scrum</div>
+<div class="skill">Scrum Master</div>
+<div class="skill">SAFe Agile</div>
+<div class="skill">PI Planning</div>
+<div class="skill">Stakeholder Management</div>
+<div class="skill">Risk Management</div>
+<div class="skill">Agile Coaching</div>
+<div class="skill">Jira & Confluence</div>
+<div class="skill">Project Management</div>
+<div class="skill">Digital Transformation</div>
+<div class="skill">DevOps Collaboration</div>
+<div class="skill">Generative AI Adoption</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="experience">
+<div class="container">
+
+<div class="section-title">
+<h2>Professional Experience</h2>
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h3>Scrum Master & Project Management</h3>
+<span>Azizi Developments | Credence Real Estate | L&T Realty | Dec 2024 – Present</span>
+<p>
+Facilitating Agile delivery, coaching teams and stakeholders,
+leading Scrum ceremonies, managing risks, removing impediments,
+and ensuring successful project outcomes in the real estate sector.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Senior Scrum Master</h3>
+<span>Infogain | NCR Atleos | Dec 2022 – Nov 2024</span>
+<p>
+Led Agile delivery across distributed teams, improved sprint predictability
+from 72% to 92%, facilitated PI Planning, stakeholder reviews, and Agile transformation initiatives.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Oracle SOA Project Manager</h3>
+<span>L&T Infotech | Aug 2018 – Sep 2022</span>
+<p>
+Managed enterprise integration projects, stakeholder communications,
+risk management, budgeting, forecasting, and Agile delivery.
+</p>
+</div>
+
+<div class="timeline-item">
+<h3>Oracle SOA Administrator & Developer</h3>
+<span>Cognizant | Jun 2014 – Jul 2018</span>
+<p>
+Managed Oracle SOA environments, deployments, WebLogic administration,
+performance tuning, and enterprise integration support.
+</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="certifications">
+<div class="container">
+
+<div class="section-title">
+<h2>Certifications</h2>
+</div>
+
+<div class="certifications">
+
+<div class="cert">
+<h3>Certified Scrum Master</h3>
+</div>
+
+<div class="cert">
+<h3>SAFe Practitioner</h3>
+</div>
+
+<div class="cert">
+<h3>Agile Project Management</h3>
+</div>
+
+<div class="cert">
+<h3>Agile Coach</h3>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<div class="section-title">
+<h2>Key Achievements</h2>
+</div>
+
+<div class="achievements">
+
+<div class="achievement">
+<h3>11+ Years</h3>
+<p>Agile, Project Management & Enterprise Delivery Experience</p>
+</div>
+
+<div class="achievement">
+<h3>92%</h3>
+<p>Sprint Predictability Improvement</p>
+</div>
+
+<div class="achievement">
+<h3>35+</h3>
+<p>Cross-Functional Team Members Led</p>
+</div>
+
+<div class="achievement">
+<h3>Global</h3>
+<p>Experience Across UAE, US & India Markets</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+
+<div class="section-title">
+<h2>Contact</h2>
+</div>
+
+<div class="contact">
+
+<p><strong>Email:</strong> hshabana79@yahoo.com</p>
+
+<p><strong>Location:</strong> Dubai, UAE</p>
+
+<p><strong>LinkedIn:</strong>
+<a href="https://www.linkedin.com/in/shabana-nazreen-hussain-6ba27141" target="_blank">
+View Profile
+</a>
+</p>
+
+<p><strong>Status:</strong> Immediately Available to Join</p>
+
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Shabana Nazreen Hussain | Scrum Master | Agile Project Manager</p>
+</footer>
+
+</body>
+</html>
